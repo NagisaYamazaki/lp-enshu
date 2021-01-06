@@ -38,7 +38,7 @@
         <h2 class="service-title section-title">service</h2>
         <div class="service-content">
           <div class="service-img">
-            <!-- <img src="./assets/service2.jpg" alt="" /> -->
+        
           </div>
           <div class="service-content_inner">
             <h3 class="mgb-15">web制作事業</h3>
@@ -51,7 +51,7 @@
         </div>
         <div class="service-content">
           <div class="service-img service-img_second">
-            <!-- <img src="./assets/service1.jpg" alt="" /> -->
+            
           </div>
           <div class="service-content_inner service-content_inner-second">
             <h3 class="mgb-15">web制作事業</h3>
@@ -319,11 +319,11 @@ body {
 
 .mission-img {
   background:url(./assets/mission-img.jpg)center/cover no-repeat;
-  position: relative;
+  position: absolute;
   height: 50%;
   width: 50%;
-  /* height:2px;
-  width: 3px; */
+  margin-left:50%;
+  margin-top:-80px;
 }
 
 /*------------------------*/
@@ -345,12 +345,14 @@ body {
 }
 
 .service-img {
-  width: 30px;
-  height: 50px;
-  margin-left: 20%;
+  background:url(./assets/service2.jpg)center/cover no-repeat;
+  width: 40%;
+  height: 300px;
+  margin-left: 50%;
 }
 
 .service-img_second {
+  background:url(./assets/service1.jpg)center/cover no-repeat;
   margin: 0 50% 0 0;
 }
 
